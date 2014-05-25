@@ -14,9 +14,12 @@ work for longer.)
 
 ## Quick research
 Link: http://rinse.fm/podcasts/
+
 Infinite scrolling site; data obtained by e.g.
 http://rinse.fm/podcasts/?page=2
+
 Currently goes to a maximum page number of 19.
+
 Higher page numbers work, but return no podcasts (so easy way to check
 when we're done).
 
@@ -24,4 +27,5 @@ Filenames are ArtistDDMMYY.mp3 (Artist can also be show name instead.)
 
 ### xPath
 Download links: `//div[@class="download icon"]/a/@href`
+
 Time of broadcast: `//div[@class="date monobold grey px11 mt4"]`
