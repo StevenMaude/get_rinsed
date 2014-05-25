@@ -23,7 +23,7 @@ Currently goes to a maximum page number of 19.
 Higher page numbers work, but return no podcasts (so easy way to check
 when we're done).
 
-Filenames are ArtistDDMMYY.mp3 (Artist can also be show name instead.)
+Filenames are `ArtistDDMMYY.mp3` (Artist can also be show name instead.)
 
 ### xPath
 Download links: `//div[@class="download icon"]/a/@href`
