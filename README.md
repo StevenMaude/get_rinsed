@@ -1,7 +1,8 @@
 # get_rinsed
 
-Like [`get_iplayer`](https://github.com/dinkypumpkin/get_iplayer) but
-for Rinse FM podcasts.
+Intended to be like
+[`get_iplayer`](https://github.com/dinkypumpkin/get_iplayer) but for
+Rinse FM podcasts (which are effectively full shows)
 
 (I wrote a downloader for Rinse FM podcasts ages ago, then they
 redesigned their site, breaking it entirely. Hopefully this one will
