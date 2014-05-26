@@ -14,8 +14,8 @@ def extract_podcast_data_from_page(page_data):
                                   'podcast-list-item"]')
 
     for podcast_result in podcast_results:
-        # data-air_day is canonical, site may list podcast visibly as being
-        # on previous day (e.g. if aired at 1 AM)
+        # data-air_day is canonical; site may list podcast visibly as being
+        # on previous day (e.g. if aired at 1 AM), which is incorrect
         air_date = podcast_result.xpath('./@data-air_day')
         air_time = podcast_result.xpath('.//div[@class="date monobold '
                                         'grey px11 mt4"]')
