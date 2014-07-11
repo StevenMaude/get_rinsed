@@ -1,5 +1,11 @@
 # get_rinsed
 
+**Put this on hold temporarily**: higher quality MP3s of podcasts
+are available from Rinse FM's
+[SoundCloud page](https://soundcloud.com/rinsefm).
+
+Maybe I'll delve into Soundcloud's API...
+
 Intended to be like
 [`get_iplayer`](https://github.com/dinkypumpkin/get_iplayer) but for
 Rinse FM podcasts (which are effectively full shows)
